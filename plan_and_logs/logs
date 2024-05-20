@@ -1,0 +1,17 @@
+20240518 :
+
+Actions to set up user authentication :
+
+Added this line to the Gemfile : 
+gem "devise" 
+
+CLI (NOTE : Ensure that the postgresql job is running ) -> 
+rails generate devise user
+
+rails db:create
+
+rails db:migrate
+
+20240520 :
+
+
