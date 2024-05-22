@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @outline %>
+
+<div>
+  <%= link_to "Edit this outline", edit_outline_path(@outline) %> |
+  <%= link_to "Back to outlines", outlines_path %>
+
+  <%= button_to "Destroy this outline", @outline, method: :delete %>
+</div>

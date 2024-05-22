@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  outline_desc: MyText
+  outline_start: 2024-05-21
+  outline_end: 2024-05-21
+  project_num: 1
+
+two:
+  outline_desc: MyText
+  outline_start: 2024-05-21
+  outline_end: 2024-05-21
+  project_num: 1

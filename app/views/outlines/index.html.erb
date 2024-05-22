@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Outlines</h1>
+
+<div id="outlines">
+  <% @outlines.each do |outline| %>
+    <%= render outline %>
+    <p>
+      <%= link_to "Show this outline", outline %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New outline", new_outline_path %>
